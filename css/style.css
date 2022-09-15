@@ -17,12 +17,29 @@
 .container{
     max-width: 1150px;
     margin: auto;
-    text-align: center;
+    
     height: 600px;
     padding-top: 40px;
 }
-    
 
+.info-box{
+    
+    width: 400px;
+    background-color: #0f0e17;
+    float: left;
+    color: white;
+    margin-top: 40px;
+}
+
+.profile-photo{
+    width: 25%;
+    float: left;
+}
+
+.info-profile{
+    float: left;
+    padding: 10px 15px;
+}
 
 /* tipography */
 
@@ -36,10 +53,21 @@ h1{
     padding-bottom: 40px;
 }
 
-p{
-    font-weight: 200;
+
+
+.margin-bottom-5{
+    margin-bottom: 5px;
+}
+header{
+    text-align: center;
 }
 
-h2,h3{
+.font-weight-light{
+    
+    font-weight: 300;
+}
 
+.email-color{
+    color: #6ecbf2;
+    text-decoration: none;
 }

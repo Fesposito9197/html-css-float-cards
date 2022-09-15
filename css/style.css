@@ -1,7 +1,45 @@
 /* reset */
 
-body{
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+/* common */
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.container{
+    max-width: 1150px;
+    margin: auto;
+    text-align: center;
+    height: 600px;
+    padding-top: 40px;
+}
+    
+
+
+/* tipography */
+
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+
+h1{
+    color: #E53170;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+
+p{
+    font-weight: 200;
+}
+
+h2,h3{
+
 }
